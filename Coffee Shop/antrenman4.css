@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right, #FCC8D1 6%, #e07b8c 90%);
+}
+.content ul{
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+    display: flex;
+    column-gap: 105px;
+}
+.content li{
+    display: inline-block;
+}
+.content li a{
+    text-decoration: none;
+    color: #be5567;
+    font-size: 20px;
+    font-family: cursive;
+    font-style: italic;
+    text-decoration: underline;
+    transition: 1s;
+}
+.content li a:hover{
+    color: #fff;
+    background-color: #f191a1;
+    padding: 4px;
+    border-radius: 10px;
+}
+.most{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 950px;
+    background: linear-gradient(to right, #de7083 10%, #f0adb8 80%);
+    border-radius: 40px;
+}
+.most .resim{
+    width: 220px;
+    margin-top: 75px;
+    margin-left: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: #b94357 -5px 5px, #be5567 -10px 10px, #e07b8c -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+.most .resim_iki{
+    width: 190px;
+    margin-top: 75px;
+    margin-left: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: #b94357 -5px 5px, #be5567 -10px 10px, #e07b8c -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+.most .resim_üc{
+    width: 220px;
+    margin-top: 75px;
+    margin-left: 120px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: #b94357 -5px 5px, #be5567 -10px 10px, #e07b8c -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+.yazi h3{
+    position: absolute;
+    top: 70%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #fff;
+}
+.kutu{
+    width: 900px;
+    height: 50px;
+    background-color: #fff;
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.kutu i{
+    font-size: 25px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 25px;
+    color: #b94357;
+}
+.kutu i:hover{
+    color: #f5b3be;
+    cursor: pointer;
+}
+.kutu .kutu_iki{
+    width: 780px;
+    height: 30px;
+    background-color: #f5b3be;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.kutu .kutu_iki:hover{
+    cursor: pointer;
+}
+.kutu h5{
+    font-size: 15px;
+    color: #fff;
+    margin-top: -25px;
+    margin-left: 15px;
+}
+.icerik{
+    width: 500px;
+    height: 500px;
+    background-color: #de7083;
+    margin-top: 155px;
+    margin-left: -230px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 60px 60px, rgba(0, 0, 0, 0.12) 0px 60px 60px, rgba(0, 0, 0, 0.12) 0px 60px 60px, rgba(0, 0, 0, 0.17) 0px 60px 60px, rgba(0, 0, 0, 0.09) 0px 60px 60px;
+}
+.icerik img{
+    width: 400px;
+    border-radius: 30px;
+    padding: 15px;
+    margin-left: 30px;
+    cursor: pointer;
+    border: 5px solid #b94357;
+    margin-top: 10px;
+}
+.icerik h6{
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f0adb8;
+    border-radius: 25px;
+}
+.icerik h2{
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 25px;
+    color: #fff;
+    font-family: cursive;
+    font-style: italic;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.resimm img{
+    width: 500px;
+    position: absolute;
+    top: 808%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    border: 5px solid #b94357;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.nav i{
+    position: absolute;
+    top: 200%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: #b94357;
+}
+.nav h2{
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: cursive;
+    font-style: italic;
+    color: #fff;
+    text-decoration: underline;
+}
+.nav h3{
+    position: absolute;
+    top: 227%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: #bf5c6d;
+    padding: 45px;
+    border-radius: 23px;
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: rgba(197, 25, 25, 0.1) 100px 260px 380px;
+}
+.nav h3:hover{
+    color: #bf5c6d;
+    background-color: #fff;
+}
+.nav img{
+    width: 1000px;
+    position: absolute;
+    top: 307%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 6px solid #b94357;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 60px 60px, rgba(0, 0, 0, 0.12) 0px 60px 60px, rgba(0, 0, 0, 0.12) 0px 60px 60px, rgba(0, 0, 0, 0.17) 0px 60px 60px, rgba(0, 0, 0, 0.09) 0px 60px 60px;
+}
+.no{
+    width: 1500px;
+    height: 10px;
+    background-color: #e03f5a;
+    position: absolute;
+    top: 369%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.son h4{
+    position: absolute;
+    top: 377%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #fff;
+}
+.son #bir{
+    position: absolute;
+    top: 387%;
+    left: 39%;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    color: #fff;
+    transition: 1s;
+}
+.son #iki{
+    position: absolute;
+    top: 387%;
+    left: 45%;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    color: #fff;
+    transition: 1s;
+}
+.son #üc{
+    position: absolute;
+    top: 387%;
+    left: 52%;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    color: #fff;
+    transition: 1s;
+}
+.son #dört{
+    position: absolute;
+    top: 387%;
+    left: 59%;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    color: #fff;
+    transition: 1s;
+}
+.son #bir:hover{
+    color: #b94357;
+    cursor: pointer;
+}
+.son #iki:hover{
+    color: #b94357;
+    cursor: pointer;
+}
+.son #üc:hover{
+    color: #b94357;
+    cursor: pointer;
+}
+.son #dört:hover{
+    color: #b94357;
+    cursor: pointer;
+}
+@media screen and (max-width:787px){
+    .content ul{
+        padding: 20px;
+    }
+    .most{
+        padding: 10px;
+    }
+    .most .resim{
+        height: 150px;
+        width: 150px;
+    }
+    .most .resim_iki{
+        height: 150px;
+        width: 150px;
+    }
+    .most .resim_üc{
+        height: 150px;
+        width: 150px;
+    }
+    .yazi h3{
+        text-align: center;
+        font-size: 15px;
+    }
+}
